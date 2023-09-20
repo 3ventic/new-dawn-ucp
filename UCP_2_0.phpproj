@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>UCP_2_0</Name>
+    <ProjectGuid>e26025c4-dd32-4b33-9e6d-6f68d5aaa7ae</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UCP_2_0</RootNamespace>
+    <!-- important to be opened by PHP Tools, when also Phalanger Tools are installed -->
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>UCP_2_0</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="api\config.php" />
+    <Compile Include="api\idfromname.php" />
+    <Compile Include="class\game.class.php" />
+    <Compile Include="class\ipb.class.php" />
+    <Compile Include="class\mysql.class.php" />
+    <Compile Include="class\samp.class.php" />
+    <Compile Include="common.php" />
+    <Compile Include="config.php" />
+    <Compile Include="cron\cron.php" />
+    <Compile Include="cron\tickets-and-maps.php" />
+    <Compile Include="errorhandling.php" />
+    <Compile Include="external\index.php" />
+    <Compile Include="ipn-mobile.php" />
+    <Compile Include="ipn.php" />
+    <Compile Include="pages\admins.php" />
+    <Compile Include="pages\chat.php" />
+    <Compile Include="pages\maps.php" />
+    <Compile Include="pages\mod-bans.php" />
+    <Compile Include="pages\mod-index.php" />
+    <Compile Include="pages\mod-search.php" />
+    <Compile Include="pages\pay-index.php" />
+    <Compile Include="pages\uploader.php" />
+    <Compile Include="scripts\save-settings.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pages\ingamelink.php" />
+    <Compile Include="pages\save.php" />
+    <Compile Include="pages\settings.php" />
+    <Compile Include="pages\summary.php" />
+    <Compile Include="scripts\summary-mod-actions.php" />
+    <Compile Include="scripts\uploader.php" />
+    <Compile Include="signature.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="class\" />
+    <Folder Include="cron\" />
+    <Folder Include="external\" />
+    <Folder Include="fonts\" />
+    <Folder Include="api\" />
+    <Folder Include="scripts\" />
+    <Folder Include="pages\" />
+    <Folder Include="signatures\" />
+    <Folder Include="signatures\cache\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="external\bg-ucp.jpg" />
+    <Content Include="external\main.css" />
+    <Content Include="external\modcp.js" />
+    <Content Include="external\paypal-button.min.js" />
+    <Content Include="external\upload.js" />
+    <Content Include="external\uploadaccept.js" />
+    <Content Include="fonts\absender1.ttf" />
+    <Content Include="fonts\COMIC.TTF" />
+    <Content Include="fonts\IMPACT.TTF" />
+    <Content Include="fonts\MYRIADPRO-BOLDCOND.OTF" />
+    <Content Include="fonts\MYRIADPRO-REGULAR.OTF" />
+    <Content Include="fonts\tahoma.ttf" />
+    <Content Include="fonts\TELEV2.TTF" />
+    <Content Include="fonts\TYPOGRAPHPROXTRABOLD.ttf" />
+    <Content Include="signatures\bgimg.png" />
+    <Content Include="signatures\bgimg1.png" />
+    <Content Include="signatures\bgimg10.png" />
+    <Content Include="signatures\bgimg11.png" />
+    <Content Include="signatures\bgimg12.png" />
+    <Content Include="signatures\bgimg13.png" />
+    <Content Include="signatures\bgimg14.png" />
+    <Content Include="signatures\bgimg15.png" />
+    <Content Include="signatures\bgimg16.png" />
+    <Content Include="signatures\bgimg17.png" />
+    <Content Include="signatures\bgimg18.png" />
+    <Content Include="signatures\bgimg19.png" />
+    <Content Include="signatures\bgimg2.png" />
+    <Content Include="signatures\bgimg20.png" />
+    <Content Include="signatures\bgimg21.png" />
+    <Content Include="signatures\bgimg22.png" />
+    <Content Include="signatures\bgimg23.png" />
+    <Content Include="signatures\bgimg24.png" />
+    <Content Include="signatures\bgimg25.png" />
+    <Content Include="signatures\bgimg26.png" />
+    <Content Include="signatures\bgimg27.png" />
+    <Content Include="signatures\bgimg28.png" />
+    <Content Include="signatures\bgimg29.png" />
+    <Content Include="signatures\bgimg3.png" />
+    <Content Include="signatures\bgimg30.png" />
+    <Content Include="signatures\bgimg31.png" />
+    <Content Include="signatures\bgimg32.png" />
+    <Content Include="signatures\bgimg33.png" />
+    <Content Include="signatures\bgimg34.png" />
+    <Content Include="signatures\bgimg35.png" />
+    <Content Include="signatures\bgimg36.png" />
+    <Content Include="signatures\bgimg37.png" />
+    <Content Include="signatures\bgimg38.png" />
+    <Content Include="signatures\bgimg39.png" />
+    <Content Include="signatures\bgimg4.png" />
+    <Content Include="signatures\bgimg40.png" />
+    <Content Include="signatures\bgimg41.png" />
+    <Content Include="signatures\bgimg42.png" />
+    <Content Include="signatures\bgimg43.png" />
+    <Content Include="signatures\bgimg44.png" />
+    <Content Include="signatures\bgimg45.png" />
+    <Content Include="signatures\bgimg46.png" />
+    <Content Include="signatures\bgimg47.png" />
+    <Content Include="signatures\bgimg48.png" />
+    <Content Include="signatures\bgimg49.png" />
+    <Content Include="signatures\bgimg5.png" />
+    <Content Include="signatures\bgimg50.png" />
+    <Content Include="signatures\bgimg51.png" />
+    <Content Include="signatures\bgimg52.png" />
+    <Content Include="signatures\bgimg53.png" />
+    <Content Include="signatures\bgimg54.png" />
+    <Content Include="signatures\bgimg55.png" />
+    <Content Include="signatures\bgimg56.png" />
+    <Content Include="signatures\bgimg57.png" />
+    <Content Include="signatures\bgimg58.png" />
+    <Content Include="signatures\bgimg59.png" />
+    <Content Include="signatures\bgimg6.png" />
+    <Content Include="signatures\bgimg60.png" />
+    <Content Include="signatures\bgimg61.png" />
+    <Content Include="signatures\bgimg62.png" />
+    <Content Include="signatures\bgimg63.png" />
+    <Content Include="signatures\bgimg64.png" />
+    <Content Include="signatures\bgimg65.png" />
+    <Content Include="signatures\bgimg66.png" />
+    <Content Include="signatures\bgimg67.png" />
+    <Content Include="signatures\bgimg68.png" />
+    <Content Include="signatures\bgimg69.png" />
+    <Content Include="signatures\bgimg7.png" />
+    <Content Include="signatures\bgimg70.png" />
+    <Content Include="signatures\bgimg71.png" />
+    <Content Include="signatures\bgimg8.png" />
+    <Content Include="signatures\bgimg82.png" />
+    <Content Include="signatures\bgimg83.png" />
+    <Content Include="signatures\bgimg84.png" />
+    <Content Include="signatures\bgimg9.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,253 @@
+﻿html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*media screen*/
+body {
+    min-height: 100%;
+    background-color: #202020;
+}
+#fake_body {
+	background-image: url("/external/bg-ucp.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    display: none;
+    min-height: inherit;
+    height: inherit;
+}
+.central {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+	padding: 20px;
+}
+#container {
+	background-color: #F2F2F2;
+}
+#copyright {
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+	background-color: #262626;
+}
+#logged {
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+nav.central {
+    font-size: 16px;
+    text-align: right;
+	background-color: #262626;
+	color: #fff;
+	padding: 0 20px;
+}
+#nav {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+}
+#nav li {
+    display: inline-block;
+    background-color: #262626;
+}
+#nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+#nav li.active,
+#nav li:hover {
+    border-bottom: 2px solid #262626;
+    background-color: #fff;
+    color: #000;
+}
+#nav li.active a,
+#nav li:hover a {
+    color: #000;
+}
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+}
+table {
+	margin: 10px 0;
+	border-top: 2px solid #262626;
+	border-bottom: 2px solid #262626;
+}
+table.fixed {
+	table-layout: fixed;
+	width: 100%;
+}
+table#admins tr {
+	text-align: center;
+	border-top: 1px solid #262626;
+}
+table.summary {
+    width:100%;
+}
+table.summary .left {
+    text-align: right;
+    width: 505px;
+}
+table.summary.left-narrow .left {
+    width: 200px;
+}
+table.summary .right {
+    border-left: 1px solid #ccc;
+    text-align: left;
+}
+th,td {
+    padding: 5px;
+}
+div.greyed {
+    opacity: 0.5;
+}
+div.donation {
+    padding: 15px 0;
+	width: 500px;
+	float: left;
+	display: inline-block;
+}
+.wide {
+    width: 100%;
+}
+.actions {
+    text-align: center;
+}
+.hl {
+    background-color: #fe0;
+}
+p.error {
+    border: 2px dashed red;
+    padding: 5px;
+    font-weight: bold;
+}
+p.warning {
+	border-color: orange;
+}
+.mod-nav {
+    display: inline-block;
+}
+#mod-nav {
+    margin-bottom: 15px;
+}
+a.button {
+	text-decoration: none;
+	display: inline-block;
+	padding: 3px;
+	border: 2px solid #262626;
+	color: #fff;
+	background-color: #262626;
+}
+a.button:hover {
+	background-color: #fff;
+	color: #262626;
+}
+.clear {
+	clear: both !important;
+}
+.progress {
+    padding: 15px 0;
+}
+#progress_inner {
+    background-color: #0F0;
+    border-radius: 5px;
+    height: 10px;
+    width: 0px;
+    position: absolute;
+    left: 5px;
+}
+#progress_outer {
+    border-radius: 10px;
+    padding: 5px;
+    width: 1014px;
+    height: 10px;
+    position: relative;
+    background-color: #262626;
+}
+#progress_text {
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    background-color: transparent;
+    color: #0C0;
+    text-shadow: #000 1px 1px;
+}
+#uploadlist {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+tr.status1 {
+    background-color: #afa;
+}
+tr.status-1 {
+    background-color: #faa;
+}
+td.status {
+    text-decoration: underline;
+    cursor: pointer;
+}
+tr.hidden td,
+tr.hidden div,
+tr.hidden p,
+tr.hidden strong {
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+tr.hidden div {
+    width: 1004px;
+    padding: 0 10px;
+}
+.deleted {
+    background-color: #faa;
+}
+#ad > ins,
+#ad > p {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 728px;
+    height: 90px;
+}
+.loading-screen{
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #202020;
+}
+.super_centred {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -41px;
+    margin-left: -100px;
+    width: 200px;
+    height: 82px;
+}
+code {
+    color: #6b1414;
+    padding: 4px;
+    display: inline-block;
+    background-color: rgba(38, 38, 255, 0.05);
+    border: 2px ridge rgba(38, 38, 255, 0.10);
+    border-radius: 4px;
+    font-family: monospace;
+}

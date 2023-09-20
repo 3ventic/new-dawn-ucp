@@ -1,0 +1,13 @@
+<FILES "UCP_2_0.phpproj">
+	Deny from all
+</FILES>
+
+RewriteEngine On
+RewriteRule ^favicon\.ico - [L]
+RewriteRule ^external/.*$ - [L]
+RewriteRule ^api/.*$ - [L]
+RewriteRule ^ipn\.php - [L]
+RewriteRule ^ipn-mobile\.php - [L]
+RewriteRule ^sig/(\d+)/(\d+)/signature\.png signature.php?i=$1&style=$2 [L]
+RewriteRule ^signature - [L]
+RewriteRule ^.*$ index.php?module= [QSA,L]
